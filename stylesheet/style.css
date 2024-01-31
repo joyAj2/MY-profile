@@ -1,0 +1,196 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+img {
+  height: 60vh;
+  width: 100%;
+}
+.container {
+  position: relative;
+  margin-bottom: 0;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(51, 41, 65, 0.9);
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar .icon {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(51, 41, 65, 0.7);
+  padding: 2.5rem;
+  color: #ffffff;
+  border-radius: 2rem;
+}
+
+#background-section {
+  background-image: url("../images/pexels-henry-&-co-1939485.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+#content-container {
+  display: flex;
+  align-items: flex-start; /* Adjusted to flex-start */
+  justify-content: flex-start; /* Adjusted to flex-start */
+  text-align: left;
+  width: 100%;
+  padding-left: 10rem; /* Add some space to the left of the text */
+}
+
+#text-container {
+  flex: 1;
+  padding-right: 20px;
+  margin-bottom: 20px; /* Add some space below the text */
+}
+
+#sphere-section {
+  width: 200px;
+  height: 200px;
+}
+
+#sphere-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px rgb(134, 74, 249);
+  transform: scaleX(1.5); /* Adjust the scale factor for elongation */
+}
+
+#sphere-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#paragraph2 {
+  margin: 0;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+#web-developer-description {
+  margin: 0;
+  font-size: 19px;
+  max-width: 400px;
+  color: black;
+  word-spacing: 2.5px;
+  line-height: 1.5;
+}
+
+#next-section {
+  background-color: rgb(51, 41, 65, 0.9);
+  padding: 50px 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 19px;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+  width: 500px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(134, 74, 249, 0.9);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: rgb(134, 74, 249, 0.9);
+}
+#design-section {
+  background-color: #f2f2f2; /* Set background color for the new section */
+  padding: 50px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.section-title1 {
+  font-size: 32px;
+  color: rgb(59, 52, 134); /* Set title color */
+}
+
+.design-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.design-images img {
+  max-width: 100%;
+  margin: 10px; /* Adjust margin between images */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  height: 15rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+#footer {
+  background-color: rgb(134, 74, 249);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
